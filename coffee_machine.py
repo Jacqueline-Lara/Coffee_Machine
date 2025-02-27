@@ -107,6 +107,7 @@ def deduct_resources(choice):
     
 while flag == True:
     choice = input("What would you like? (espresso/latte/cappuccino): ")
+    print("If you want to turn off the machine just write off")
     choice = choice.lower()
     
     if choice == "espresso":
